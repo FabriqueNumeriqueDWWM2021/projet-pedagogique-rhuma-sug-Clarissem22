@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/water.jpg);
+}
+
+
+
+.header{
+    padding: 20px 0 0 30px;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(27, 27, 27, 0.3);
+}
+
+img{
+    height: 80px;
+    width: 210px;
+}
+
+.compte{
+    height: 100px;
+    width: 100px;
+}
+
+.panier {
+    height: 100px;
+    width: 50px;
+}
