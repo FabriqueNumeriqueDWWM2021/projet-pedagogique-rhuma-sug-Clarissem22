@@ -1,32 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: url(img/water.jpg);
+body {
+  background-image: url(img/water.jpg);
 }
 
-
-
-.header{
-    padding: 20px 0 0 30px;
-    height: 15vh;
-    width: 100%;
-    background-color: rgb(27, 27, 27, 0.3);
+/* HEADER */
+.header {
+  padding: 20px 0 0 30px;
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(27, 27, 27, 0.3);
 }
 
-img{
-    height: 80px;
-    width: 210px;
+img {
+  height: 80px;
+  width: 210px;
 }
 
-.compte{
-    height: 100px;
-    width: 100px;
+.compte {
+  height: 100px;
+  width: 100px;
 }
 
 .panier {
-    height: 100px;
-    width: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+/* SECTION 1
+LEFT */
+
+.section1 {
+  height: 100vh;
+  width: 100vw;
+}
+
+.imgAcc {
+  justify-items: center;
+  height: 500px;
+  width: 500px;
+  top: 10%;
+  left: 10%;
+}
+
+/* RIGHT */
+.section2 {
+  height: 100vh;
+  width: 100wv;
+}
+
+.imgS2 {
+  justify-items: center;
+  height: 500px;
+  width: 500px;
+  top: 10%;
+  left: 10%;
+}
+
+.section3 {
+  height: 100vh;
+  width: 100wv;
+}
+
+.imgS3 {
+  justify-items: center;
+  height: 500px;
+  width: 500px;
+  top: 10%;
+  left: 10%;
 }
