@@ -44,69 +44,59 @@ divLeft1.appendChild(imgAcc);
 // -----------------RIGHT-----------------
 const divRight1 = document.createElement("div");
 const divBubblesR = document.createElement("div");
-const divBubble1 = document.createElement("div");
-const divBubble2 = document.createElement("div");
-const divBubble3 = document.createElement("div");
+// const divBubble1 = document.createElement("div");
+// const divBubble2 = document.createElement("div");
+// const divBubble3 = document.createElement("div");
 const imgBubble1 = document.createElement("img");
 const imgBubble2 = document.createElement("img");
 const imgBubble3 = document.createElement("img");
-const aboutAcc = document.createElement("div");
-const rhumAcc = document.createElement("div");
-const sugAcc = document.createElement("div");
 
 divBubblesR.className = "divBubblesR";
-divBubble1.className = "divBubble1";
-divBubble2.className = "divBubble2";
-divBubble3.className = "divBubble3";
+// divBubble1.className = "divBubble1";
+// divBubble2.className = "divBubble2";
+// divBubble3.className = "divBubble3";
 imgBubble1.className = "imgBubble1";
 imgBubble1.src = "img/BubbleBob.png";
 imgBubble2.className = "imgBubble2";
 imgBubble2.src = "img/BubbleRhum.png";
 imgBubble3.className = "imgBubble3";
 imgBubble3.src = "img/BubbleSug.png";
-aboutAcc.className = "aboutAcc";
-aboutAcc.innerHTML = "Qui sommes-nous ?";
-rhumAcc.className = "rhumAcc";
-rhumAcc.innerHTML = "Découvrez nos rhums";
-sugAcc.className = "sugAcc";
-sugAcc.innerHTML = "Découvrez nos sucres de canne";
 
 section1.appendChild(divRight1);
 divRight1.appendChild(divBubblesR);
-divBubblesR.appendChild(divBubble1);
-divBubblesR.appendChild(divBubble2);
-divBubblesR.appendChild(divBubble3);
-divBubble1.appendChild(imgBubble1);
-divBubble2.appendChild(imgBubble2);
-divBubble3.appendChild(imgBubble3);
-divBubble1.appendChild(aboutAcc);
-divBubble2.appendChild(rhumAcc);
-divBubble3.appendChild(sugAcc);
+divBubblesR.appendChild(imgBubble1);
+divBubblesR.appendChild(imgBubble2);
+divBubblesR.appendChild(imgBubble3);
+// divBubble1.appendChild(imgBubble1);
+// divBubble2.appendChild(imgBubble2);
+// divBubble3.appendChild(imgBubble3);
 
-// SECTION 2
+// // SECTION 2
 
-const section2 = document.createElement("section");
-const divLeft2 = document.createElement("div");
-const imgS2 = document.createElement("img");
+// const section2 = document.createElement("section");
+// const divLeft2 = document.createElement("div");
+// const imgS2 = document.createElement("img");
+// const aboutus = ducument.createElement("div");
 
-section2.className = "section2";
-divLeft2.className = "divLeft2";
-imgS2.className = "imgS2";
-imgS2.src = "img/BubbleBob.png";
+// section2.className = "section2";
+// divLeft2.className = "divLeft2";
+// imgS2.className = "imgS2";
+// imgS2.src = "img/BubbleBob.png";
 
-document.body.appendChild(section2);
-section2.appendChild(divLeft2);
-divLeft2.appendChild(imgS2);
+// document.body.appendChild(section2);
+// section2.appendChild(divLeft2);
+// divLeft2.appendChild(imgS2);
 
-// SECTION 3
+// // RIGHT
+// // SECTION 3
 
-const section3 = document.createElement("section");
-const divLeft3 = document.createElement("div");
-const imgS3 = document.createElement("img");
+// const section3 = document.createElement("section");
+// const divLeft3 = document.createElement("div");
+// const imgS3 = document.createElement("img");
 
-imgS3.className = "imgS3";
-imgS3.src = "img/Accueil(2).png";
+// imgS3.className = "imgS3";
+// imgS3.src = "img/Accueil(2).png";
 
-document.body.appendChild(section3);
-section3.appendChild(divLeft3);
-divLeft3.appendChild(imgS3);
+// document.body.appendChild(section3);
+// section3.appendChild(divLeft3);
+// divLeft3.appendChild(imgS3);

@@ -22,7 +22,6 @@ body {
 }
 
 img {
-  height: 80px;
   width: 210px;
 }
 
@@ -68,7 +67,7 @@ section {
   justify-items: center;
   height: 500px;
   width: 500px;
-  margin-top: 25vh;
+  margin-top: 30vh;
   margin-left: 10%;
 }
 
@@ -88,14 +87,8 @@ section {
   margin-left: 30vw;
   display: flex;
   flex-direction: column;
-}
-
-.divBubble1,
-.divBubble2,
-.divBubble3 {
-  height: 30vh;
-  width: 20vw;
-  display: flex;
+  position: relative;
+  height: 20px;
 }
 
 .imgBubble1,
@@ -107,55 +100,22 @@ section {
 
 .imgBubble2 {
   margin-left: 12vh;
-  margin-top: -8vh;
+  margin-top: -5vh;
 }
 .imgBubble3 {
-  margin-top: -20vh;
+  margin-top: -15vh;
   margin-left: -15vh;
-}
-
-.aboutAcc {
-  height: 30px;
-  width: 130px;
-  color: black;
-  font-size: 22px;
-  text-align: center;
-  margin-left: -12vw;
-  margin-top: 8vh;
-}
-.rhumAcc {
-  height: 30px;
-  width: 130px;
-  color: black;
-  font-size: 22px;
-  text-align: center;
-  margin-left: -12vw;
-  margin-top: 3vh;
-}
-
-.sugAcc {
-  height: 30px;
-  width: 130px;
-  color: black;
-  font-size: 22px;
-  text-align: center;
-  margin-left: -12vw;
-  margin-top: -10vh;
 }
 
 /* SECTION 2 */
 
-.section2,
-.section3 {
-  height: 100vh;
-  width: 100wv;
+.section2 {
+  height: 130vh;
+  width: 100vw;
+  margin-top: 40vh;
 }
 
-/* .imgS2,
-.imgS3 {
-  justify-items: center;
-  height: 500px;
-  width: 500px;
-  top: 10%;
-  left: 10%;
-} */
+.divImgS2 {
+  position: absolute;
+  z-index: 1;
+}
