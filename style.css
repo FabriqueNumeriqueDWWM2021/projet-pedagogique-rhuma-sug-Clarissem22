@@ -112,10 +112,34 @@ section {
 .section2 {
   height: 130vh;
   width: 100vw;
-  margin-top: 40vh;
+  margin-top: 50vh;
 }
 
 .divImgS2 {
   position: absolute;
   z-index: 1;
+}
+
+/*SECTION3 */
+.section3 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin-top: 25vh;
+}
+.divLeft3 {
+  height: 100%;
+  width: 48%;
+}
+
+.divRight3 {
+  width: 48%;
+}
+
+.imgS3 {
+  position: relative;
+  height: 800px;
+  width: 800px;
+  margin-top: 15vh;
+  margin-left: -5vw;
 }

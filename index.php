@@ -70,12 +70,21 @@
             </div>
         </div>
 
-        <div class="divRight">
-
-            <div>
-                <img class="imgS2" src="img/Buuuble.png">
-                <div></div>
+        <div class="divRight3">
+            <div class="divBubbleRS3">
+                <img class="imgS3" src="img/Buuuble.png">
             </div>
+            <div class="divProduitS3">
+                <div>
+                    <p> Nos Rhums </p>
+                </div>
+                <div>
+                    <img>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae atque in sapiente vel sunt repellendus exercitationem esse, repudiandae tempora inventore reiciendis ullam quisquam et recusandae fugiat, incidunt sequi pariatur assumenda.</p>
+                    <div>Panier</div>
+                </div>
+            </div>
+        </div>
         </div>
 
     </section>
