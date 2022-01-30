@@ -7,18 +7,19 @@
 }
 
 body {
-  background-image: url(img/water.jpg);
+  background: url(img/water.jpg) fixed;
 }
 
 /* HEADER */
 .header {
-  padding: 30px 0 40px 20px;
-  height: 10vh;
+  padding: 20px 0 40px 20px;
+  height: 7vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(27, 27, 27, 0.4);
+  background-color: rgb(27, 27, 27, 0.6);
   position: fixed;
+  z-index: 10;
 }
 
 img {
@@ -37,11 +38,13 @@ img {
 .compte {
   height: 100px;
   width: 100px;
+  margin-top: -3%;
 }
 
 .panier {
   height: 100px;
   width: 100px;
+  margin-top: -3%;
 }
 
 /* SECTION 1 */
@@ -134,12 +137,51 @@ section {
 
 .divRight3 {
   width: 48%;
+  position: relative;
+  display: flex;
 }
 
 .imgS3 {
-  position: relative;
   height: 800px;
   width: 800px;
   margin-top: 15vh;
   margin-left: -5vw;
+  z-index: 1;
 }
+
+.divBubbleR {
+  height: 820px;
+  width: 820px;
+  position: relative;
+}
+.divProduitS3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 56px;
+  width: 700px;
+  height: 700px;
+  z-index: 2;
+  font-size: 100%;
+  text-align: center;
+  top: 30%;
+  left: 5%;
+}
+
+.ajoutPanier {
+  height: 100px;
+  width: 100px;
+}
+
+.RhumAmbre,
+.RhumAgricole {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  padding: 3%;
+}
+/* 
+.pProduits {
+  padding: 0 10px 0 10px;
+  width: 100px;
+} */
