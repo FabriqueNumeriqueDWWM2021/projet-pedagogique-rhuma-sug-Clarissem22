@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<header class="header">
+    <div class="divLogo">
+        <img class="logo" src="img/Logo.png">
+    </div>
+    <div class="divBubbles">
+        <img class="compte" src="img/Compte.png">
+        <img class="panier" src="img/Panier.png">
+    </div>
 
-<?php
-?>
-    
-</body>
-</html>
+
+</header>
