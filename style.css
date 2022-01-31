@@ -188,7 +188,8 @@ section {
   margin-top: 15vh;
 }
 
-.ajoutP {
+.ajoutP,
+.continuerAchat {
   height: 200px;
   width: 200px;
 }
@@ -204,4 +205,19 @@ section {
   width: 49%;
   position: relative;
   display: flex;
+}
+
+.inscription {
+  height: 100px;
+  width: 100px;
+}
+
+/* Bulle Tortue */
+.tortue {
+  width: 220px;
+  position: absolute;
+  left: 20%;
+  transform: translateX(-50%);
+  padding: 10px;
+  transition: 0.5s;
 }

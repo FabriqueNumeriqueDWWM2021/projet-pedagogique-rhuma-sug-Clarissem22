@@ -22,7 +22,7 @@
                         <h1>MON PANIER</h1>
                     </div>
                     <div>
-                        <img class="ajoutP" src="img/ContinuerAchats.png" alt="">
+                        <img class="continuerAchat" src="img/ContinuerAchats.png" alt="">
                     </div>
                 </div>
             </div>
@@ -47,6 +47,7 @@
 
 
     </section>
+    <script src="./main.js"> </script>
 
 </body>
 

@@ -38,16 +38,20 @@
                     </div>
                     <div>
                         <img class="ajoutPanier" src="img/Connexion.png" alt="">
-                        <img class="ajoutPanier" src="img/Inscription.png" alt="">
+                        <img class="inscription" src="img/Inscription.png" alt="">
                     </div>
                 </div>
 
+                <div class="tortue">
+                    <img src="img/bulleTortue.png" alt="">
+                </div>
 
             </div>
         </div>
 
 
     </section>
+    <script src="./main.js"> </script>
 
 </body>
 
