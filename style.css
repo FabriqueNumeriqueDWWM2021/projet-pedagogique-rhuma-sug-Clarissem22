@@ -180,3 +180,28 @@ section {
   align-items: center;
   padding: 3%;
 }
+
+/* PAGE PANIER */
+.imgPanier {
+  height: 700px;
+  width: 700px;
+  margin-top: 15vh;
+}
+
+.ajoutP {
+  height: 200px;
+  width: 200px;
+}
+
+.sectionP {
+  height: 100vh;
+  width: 110vw;
+  display: flex;
+}
+
+.divLeftP {
+  height: 100%;
+  width: 49%;
+  position: relative;
+  display: flex;
+}
