@@ -174,7 +174,9 @@ section {
 }
 
 .RhumAmbre,
-.RhumAgricole {
+.RhumAgricole,
+.form_inscription,
+.form_compte {
   display: flex;
   width: 80%;
   align-items: center;
@@ -217,7 +219,37 @@ section {
   width: 220px;
   position: absolute;
   left: 20%;
-  transform: translateX(-50%);
+  transform: translateX();
   padding: 10px;
   transition: 0.5s;
+}
+form {
+  width: 40em;
+  justify-content: center;
+}
+input {
+  margin: 10px;
+  justify-content: center;
+  height: 3em;
+  width: 15em;
+  background-color: #398b99c4;
+  color: black;
+  border: 2px solid #398b9996;
+  border-radius: 20px;
+}
+
+::placeholder {
+  color: black;
+  justify-content: center;
+}
+
+.input {
+  margin: 10px;
+  justify-content: center;
+  height: 3em;
+  width: 20em;
+  background-color: #398b99c4;
+  color: black;
+  border: 2px solid #398b9996;
+  border-radius: 20px;
 }

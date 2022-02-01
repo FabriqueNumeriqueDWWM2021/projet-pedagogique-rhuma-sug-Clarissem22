@@ -28,12 +28,10 @@
                     <div>
                         <h1>Accéder à mon compte</h1>
                     </div>
-                    <div class="RhumAmbre">
-                        <form>
-                            <label></label>
-                            <input> <br>
-                            <label></label>
-                            <input>
+                    <div class="form_compte">
+                        <form method="POST" action="database_compte.php">
+                            <input class="input" type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required />
+                            <input class="input" type="text" name="motdepasse" id="motdepasse" placeholder="Mot de passe" required />
                         </form>
                     </div>
                     <div>
