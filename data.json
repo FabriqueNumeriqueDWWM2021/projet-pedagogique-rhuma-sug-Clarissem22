@@ -1,0 +1,26 @@
+[
+    {
+        "image" : "img/RhumAmbre.png" ,
+        "nom":"Rhum Ambré",
+        "prix":"22",
+        "stock":"10"
+    },
+    {
+        "image" : "img/RhumAgr.png" ,
+        "nom":"Rhum Agricole",
+        "prix":"90",
+        "stock":"10"
+    },
+    {
+        "image" : "img/Sucredecannee.png" ,
+        "nom":"Sucre de canne",
+        "prix":"20",
+        "stock":"10"
+    },
+    {
+        "image" : "img/Sucredecanneliquide.png.png" ,
+        "nom":"Sucre de canne liquide",
+        "prix":"50",
+        "stock":"10"
+    }
+]

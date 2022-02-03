@@ -52,7 +52,8 @@
 
 
     </section>
-    <script src="./main.js"> </script>
+    <script type="module" src="./main.js"> </script>
+    <script type="module" src="./insererProduit.js"> </script>
 
 </body>
 
