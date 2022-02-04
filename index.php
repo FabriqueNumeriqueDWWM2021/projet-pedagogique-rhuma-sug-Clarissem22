@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <?php include "./header.php" ?>
-    <script src="./section.js"> </script>
+    <?php include "template/header.php" ?>
+    <script src="js/section.js"> </script>
 
     <!-- SECTION 2 -->
     <section class="section2">
@@ -163,8 +163,8 @@
     </section>
 
 
-    <script type="module" src="./main.js"> </script>
-    <script type="module" src="./insererProduit.js"> </script>
+    <script src="js/main.js"> </script>
+    <script src="./insererProduit.js"> </script>
 
 </body>
 

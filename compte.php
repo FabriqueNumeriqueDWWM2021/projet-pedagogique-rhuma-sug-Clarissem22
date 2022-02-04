@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    <?php include "./header.php" ?>
+    <?php include "template/header.php" ?>
+
     <section class="section3">
         <div class="divLeft3">
 
@@ -49,7 +50,7 @@
 
 
     </section>
-    <script type="module" src="./main.js"> </script>
+    <script src="js/main.js"> </script>
     <script type="module" src="./insererProduit.js"> </script>
 
 </body>
