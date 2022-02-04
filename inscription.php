@@ -38,7 +38,9 @@
                             <input type="text" name="ville" id="ville" placeholder="Ville" required />
                             <input type="text" name="codepostal" id="codepostal" placeholder="Code postal" required />
                             <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required />
-                            <input type="text" name="motdepasse" id="motdepasse" placeholder="Mot de passe" required />
+                            <input type="password" name="motdepasse" id="motdepasse" placeholder="Mot de passe" required /> <br>
+                            <input class="formsend" type="submit" value="Inscription" name="formsend" id="formsend">
+
                         </form>
                     </div>
                     <div>

@@ -32,11 +32,12 @@
                     <div class="form_compte">
                         <form method="POST" action="database_compte.php">
                             <input class="input" type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required />
-                            <input class="input" type="text" name="motdepasse" id="motdepasse" placeholder="Mot de passe" required />
+                            <input class="input" type="text" name="motdepasse" id="motdepasse" placeholder="Mot de passe" required /> <br>
+                            <input class="formsend" type="submit" value="Connexion" name="formsend" id="formsend">
+
                         </form>
                     </div>
                     <div>
-                        <img class="ajoutPanier" src="img/Connexion.png" alt="">
                         <img class="inscription" src="img/Inscription.png" alt="">
                     </div>
                 </div>
