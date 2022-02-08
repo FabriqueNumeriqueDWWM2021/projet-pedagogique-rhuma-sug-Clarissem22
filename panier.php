@@ -48,7 +48,8 @@
 
     </section>
     <script src="js/main.js"> </script>
-    <script type="module" src="./insererProduit.js"> </script>
+    <script type="module" src="./js/insererProduit.js"> </script>
+    <script type="module" src="./js/demo.js"> </script>
 
 </body>
 
