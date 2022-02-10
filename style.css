@@ -259,3 +259,81 @@ input {
   width: 100px;
   background-image: url("img/Connexion.png");
 }
+
+.imgTortuep {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  filter: drop-shadow(0px 6px 3px rgba(255, 255, 0, 0.6));
+  z-index: 6;
+  animation: spaceship 6s infinite linear;
+  left: 0;
+}
+@keyframes spaceship {
+  0% {
+    top: 2%;
+    left: 2%;
+    transform: rotate(90deg);
+  }
+  10% {
+    top: 6%;
+    left: 30%;
+    transform: rotate(95deg);
+  }
+  20% {
+    top: 9%;
+    left: 60%;
+    transform: rotate(60deg);
+  }
+  30% {
+    top: 0%;
+    left: 80%;
+    transform: rotate(90deg);
+  }
+  40% {
+    top: 20%;
+    left: 120%;
+    transform: rotate(110deg);
+  }
+  50% {
+    top: 50%;
+    left: 80%;
+    transform: rotate(323deg);
+  }
+  60% {
+    top: 90%;
+    left: 90%;
+    transform: rotate(256deg);
+  }
+  70% {
+    top: 110%;
+    left: 50%;
+    transform: rotate(237deg);
+  }
+  80% {
+    top: 85%;
+    left: 30%;
+    transform: rotate(323deg);
+  }
+  90% {
+    top: 50%;
+    left: 15%;
+    transform: rotate(350deg);
+  }
+  100% {
+    top: 2%;
+    left: 2%;
+    transform: rotate(90deg);
+  }
+}
+
+.bodyazerty {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.azerty {
+  height: 90vh;
+  width: 49%;
+}
